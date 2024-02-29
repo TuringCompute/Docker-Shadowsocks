@@ -6,7 +6,7 @@ LABEL maintainer="Howey(Huo Yi) <huoyihy@hotmail.com>" \
         org.label-schema.name="docker-shadowsocks" \
         org.label-schema.vendor="Turing Compute" \
         org.label-schema.description="docker image that run shadowsocks toolset according to given configuration." \
-        org.label-schema.vcs-url="https://https://github.com/TuringCompute/Docker-Shadowsocks" \
+        org.label-schema.vcs-url="https://github.com/TuringCompute/Docker-Shadowsocks" \
         org.label-schema.license="MIT"
 
 # install shadowsocks toolset library: 

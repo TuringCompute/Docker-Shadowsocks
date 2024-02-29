@@ -1,0 +1,11 @@
+{
+  "server": "<Shadowsocks server's IP address>",
+  "server_port": <Shadowsocks server's port>,
+  "local_address": "0.0.0.0",
+  "local_port": 5634,
+  "password": "<Shadowsocks server's password>",
+  "timeout": 300,
+  "method": "chacha20-ietf-poly1305",
+  "mode": "tcp_and_udp",
+  "tunnel_address": "<target server ip>:<target server's port>"
+}
