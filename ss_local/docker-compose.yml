@@ -3,3 +3,8 @@ services:
   shadowsocks-client:
     image: turingcompute/docker-shadowsocks:latest
     command: sh -c "ss-local -c /opt/config/ss_local_cfg.json"
+    ports:
+      - "5634:5634"
+    volumes:
+      - ./ss_local_cfg.json:/opt/config/ss_local_cfg.json
+    restart: always
