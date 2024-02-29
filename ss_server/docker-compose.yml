@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  shadowsocks:
+    image: turingcompute/docker-shadowsocks:latest
+    command: sh -c "ss-server -c /opt/config/ss_server_cfg.json"
+    ports:
+      - "8388:8388"
+    volumes:
+      - ./ss_server_cfg.json:/opt/config/ss_server_cfg.json
+    restart: always
